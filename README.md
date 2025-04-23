@@ -1,3 +1,27 @@
+# Setting Up
+
+### 1 - Clone the repo 
+```
+git clone https://github.com/mallikaakash/Attenomics
+```
+
+### 2 - cd into the folder
+```
+cd attenomics-ai-server
+```
+
+### 3 - Install required ackages
+```
+pip install -r requirements.txt
+```
+
+### 4 - run the fastapi server
+```
+uvicorn main:app --reload
+```
+
+### 5 - test it by sending a payloa to the enpoint REST API endpoint (detailed below)
+
 # Tweet Analysis Service
 
 A machine learning service that analyzes tweets using a BERT-based Siamese neural network to compute relevancy and attention scores.

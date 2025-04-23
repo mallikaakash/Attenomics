@@ -1,5 +1,3 @@
-app/model/*.pth
-app/model/*.zip
-app/model
+
 *.log
 __pycache__/
